@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Software Engineer Portfolio</title>
+    <title>Dipo Adeniregun's Portfolio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -33,23 +33,38 @@
 </head>
 <body>
     <header>
-        <h1>Software Engineer Portfolio</h1>
+        <h1>Dipo Adeniregun's Portfolio</h1>
+        <p>Hi, my name is Dipo Adeniregun and I'm an Electrical Engineering graduate of the University of Manitoba and I am currently searching for a software engineering position. I am
+            skilled at Embedded development, ASIC verification and development and I am currently trying to learn game development.
+        </p>
     </header>
 
     <section class="section">
         <h2>Experience</h2>
         <ul>
             <li>
-                <h3>Company A</h3>
-                <p>Position: Software Engineer</p>
-                <p>Date: January 2018 - December 2020</p>
-                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consectetur ipsum libero, id elementum felis auctor at.</p>
+                <h3>Xilinx Inc</h3>
+                <p>Position: Serdes Application Development Intern</p>
+                <p>Date: May 3 2021 - April 31 2022</p>
+                <p>Description:</p>
+                <ul>
+                    <li>Developed modules in Verilog and SystemVerilog for DCMAC Ethernet IP in a Linux environment at speeds up to 400Gbps.</li>
+                    <li>Developed SystemVerilog testbenches for verifying the proper operation of modules on the Interlaken communication protocol.</li>
+                    <li>Automated prototyping on Xilinx FPGA using Python scripts, resulting in a 43% reduction in testing time.</li>
+                    <li>Conducted synthesis, simulation, and timing analysis of DCMAC FEC with GT Ethernet design, contributing to successful bring-up in the lab.</li>
+                </ul>
             </li>
             <li>
-                <h3>Company B</h3>
-                <p>Position: Senior Software Engineer</p>
-                <p>Date: January 2021 - Present</p>
-                <p>Description: Nullam facilisis ipsum eu aliquam commodo. Proin consequat turpis sed libero laoreet, vel posuere urna dapibus.</p>
+                <h3>UMSAE Formula Electric Team</h3>
+                <p>Position: Team Member</p>
+                <p>Date: September 2019 - May 2020</p>
+                <p>Description:</p>
+                <ul>
+                    <li>Collaborated with other Formula Electric team members to design a full-scale battery powered electric vehicle for the Formula SAE competition.</li>
+                    <li>Interfaced with numerous sensors using CAN, I2C and other protocols to collect diagnostic information from other systems for displaying on the dashboard.</li>
+                    <li>Designed PCBs using Altium live and soldered surface mounted components unto the ACU circuit board.</li>
+                    <li>Performed testing of circuits using oscilloscopes, waveform generators and other lab test equipment to validate circuit design.</li>
+                </ul>
             </li>
         </ul>
     </section>
@@ -57,17 +72,30 @@
     <section class="section">
         <h2>Projects</h2>
         <div class="project">
-            <h3>Project A</h3>
-            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae enim sit amet ex efficitur ullamcorper. Fusce a tortor diam.</p>
+            <h3>Real Time Heartrate Monitor</h3>
+            <h4>Description:</h4>
+            <p>This project aims to accurately determine a user's heartrate in real time using just a webcam. The user covers the camera lens of a webcam with their finger and this video
+                along with some signal processing techniques is used to infer the user's heartrate.
+            </p>
+            <p>The human heartrate typically ranges from 40 to 230 beats per minute or with a frequency of 0.667 to 3.833 Hz. By applying a band pass filter with
+                these cutoff frequencies, we can isolate the user's approximate heartrate.
+            </p>
+            <h4>Technologies Used:</h4>
+            <p>C++, OpenCv, Boost C++ Library, Digital Signal Processing</p>
+            <p>Find this project <a href="https://github.com/dipoAdeniregun/Heartrate_Monitor">here</a></p>
         </div>
         <div class="project">
-            <h3>Project B</h3>
-            <p>Description: Donec interdum nisi id nunc euismod, in condimentum velit aliquet. Fusce quis est vitae velit rutrum dapibus id nec purus.</p>
+            <h3>Spotify Playlist Importer</h3>
+            <h4>Description: </h4>
+            <p>This project aims to give users the ability to import all their liked songs, playlists, albums and artists from Spotify to Apple Music and vice versa</p>
+            <h4>Technologies Used:</h4>
+            <p>Python, Flask, SQL</p>
+            <p>Find this project <a href="https://github.com/dipoAdeniregun/PlaylistImporter">here</a></p>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2023 Your Name</p>
+        <p>&copy; 2023 Dipo Adeniregun</p>
     </footer>
 </body>
 </html>
